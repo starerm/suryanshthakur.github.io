@@ -14,42 +14,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+ 
+	<!---->
 	
-<!--Dark Mode Addition-->
-		<style>
-		body{
-		padding:10% 3% 10% 3%;
-		text-align:center;
-		}
-		img{
-			height:140px;
-				width:140px;
-		}
-		h1{
-		color: #32a852;
-		}
-		.mode {
-			float:right;
-		}
-		.change {
-			cursor: pointer;
-			border: 1px solid #555;
-			border-radius: 40%;
-			width: 20px;
-			text-align: center;
-			padding: 5px;
-			margin-left: 8px;
-		}
-		.dark{
-			background-color: #222;
-			color: #e6e6e6;
-		}
-	</style>
-	
-	<!--End of the mode-->
-	
-  
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
@@ -61,27 +28,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
   
 </style>
-<!--<body class="w3-black">-->
-<body>
-	<div class="mode">
-		Dark mode:			
-		<span class="change">OFF</span>
-	</div>
+<body class="w3-black">
 
-	
-	<script>
-		$( ".change" ).on("click", function() {
-			if( $( "body" ).hasClass( "dark" )) {
-				$( "body" ).removeClass( "dark" );
-				$( ".change" ).text( "OFF" );
-			} else {
-				$( "body" ).addClass( "dark" );
-				$( ".change" ).text( "ON" );
-			}
-		});
-	</script>
-	
-	<!--End of it agaiin--> 
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
